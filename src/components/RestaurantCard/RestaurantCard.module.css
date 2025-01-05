@@ -1,0 +1,49 @@
+.container {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    font-family: "Merienda", serif;
+}
+
+.header {
+    padding: 10px 10px 10px 20px;
+    font-size: large;
+}
+
+.body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 47px;
+    padding: 10px 0px 10px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(64, 64, 253);
+}
+
+a:hover {
+    color: rgb(255, 73, 73);
+}
+
+.yellow {
+    color: rgb(250 204 21)
+}
+
+.green {
+    color: rgb(0, 190, 0);
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
